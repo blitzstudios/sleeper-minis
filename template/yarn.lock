@@ -1048,7 +1048,7 @@
     "@babel/parser" "^7.25.9"
     "@babel/types" "^7.25.9"
 
-"@babel/traverse--for-generate-function-map@npm:@babel/traverse@^7.25.3", "@babel/traverse@^7.25.3", "@babel/traverse@^7.25.9", "@babel/traverse@^7.7.0", "@babel/traverse@^7.7.4":
+"@babel/traverse--for-generate-function-map@npm:@babel/traverse@^7.25.3":
   version "7.25.9"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.25.9.tgz#a50f8fe49e7f69f53de5bea7e413cd35c5e13c84"
   integrity sha512-ZCuvfwOwlz/bawvAuvcj8rrithP2/N55Tzz342AkTvq4qaWbGfmCk/tKhNaV2cthijKrPAA8SRJV5WWe7IBMJw==
@@ -1071,6 +1071,19 @@
     "@babel/parser" "^7.26.3"
     "@babel/template" "^7.25.9"
     "@babel/types" "^7.26.3"
+    debug "^4.3.1"
+    globals "^11.1.0"
+
+"@babel/traverse@^7.25.3", "@babel/traverse@^7.25.9", "@babel/traverse@^7.7.0", "@babel/traverse@^7.7.4":
+  version "7.25.9"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.25.9.tgz#a50f8fe49e7f69f53de5bea7e413cd35c5e13c84"
+  integrity sha512-ZCuvfwOwlz/bawvAuvcj8rrithP2/N55Tzz342AkTvq4qaWbGfmCk/tKhNaV2cthijKrPAA8SRJV5WWe7IBMJw==
+  dependencies:
+    "@babel/code-frame" "^7.25.9"
+    "@babel/generator" "^7.25.9"
+    "@babel/parser" "^7.25.9"
+    "@babel/template" "^7.25.9"
+    "@babel/types" "^7.25.9"
     debug "^4.3.1"
     globals "^11.1.0"
 
@@ -2043,10 +2056,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@sleeperhq/mini-core@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@sleeperhq/mini-core/-/mini-core-3.0.6.tgz#faeb7f59a2f9227f4e17d32fd9a120f4bcf2a426"
-  integrity sha512-JmyhAp0d8wQz/tFQevQbpgx8/Tx6wiLbPOfFdH6iqNZDNL8W+hA7GmIMJWgLKqeSx/EyRRaFRDLzma9T/CrTgA==
+"@sleeperhq/mini-core@3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@sleeperhq/mini-core/-/mini-core-3.0.7.tgz#d45fb0e3c072408d5054cfb87960741b36cd741f"
+  integrity sha512-EqZ/F5GR1ZFTJK0kpUDBhgtW1r1GzQri3unW/A71kyLzA9DrvalZtaxBHtBkYuTKOyg9Lw5LYvStBhzEhP5AAA==
   dependencies:
     "@babel/plugin-transform-runtime" "7.25.9"
     "@babel/runtime" "7.26.0"

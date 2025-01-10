@@ -104,10 +104,13 @@ const ActionSample = (props: OwnProps) => {
             }}
           />
           <Sleeper.Jersey
-            style={styles.jersey}
-            sport={'nfl'}
-            number={'42'}
             fill={'green'}
+            stroke={'white'}
+            strokeWidth={3}
+            number={42}
+            width={50}
+            sport={'nfl'}
+            team={'mini'}
           />
         </RN.View>
         <RN.View style={styles.horizontal}>
@@ -201,10 +204,6 @@ const styles = RN.StyleSheet.create({
     borderRadius: 10,
     padding: 15,
     margin: 5,
-  },
-  jersey: {
-    width: 50,
-    height: 50,
   },
   tabItem: {
     paddingHorizontal: 3,
